@@ -1,0 +1,139 @@
+/* 768px den bawlayaraq boyuk cihazlar ucun */
+
+
+
+@media(min-width:767px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+    .logo {
+        color: rgb(58, 104, 184);
+    }
+      
+    .logo h2{
+        font-size:25px;
+       
+       
+    }
+        
+   
+  .nav-links {
+        display: flex;
+        gap: 5pxpx;
+        flex-direction: row-reverse;
+        text-align: center;
+        gap:8px;
+        
+      }
+
+      .nav-links a{
+        border:solid 1px rgb(255, 255, 255);
+        border-radius:10px;
+        color: beige;
+        text-decoration:none;
+        font-size:20px;
+        padding:5px;
+      }
+      
+     .nav-links a:hover {
+        background-color: #0446b9;
+     }
+
+    header {
+        background-color: #0a1220;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .daxil {
+        display: flex;
+        border-radius: 10px 0 10px 0;
+        background: #3a68b8;
+        border: 1px solid white;
+        
+
+    }
+    
+    .daxil a {
+        color:#fff;
+        font-size: 24px;
+        text-decoration: none;
+        margin: 5px;
+
+    }
+
+    .daxil a:hover{
+        background-color: #0a1220;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+     
+    .info .section-info{
+        font-size:30px ;
+        color: #fff;
+    }
+
+    .info h1 {
+        font-size:41px ;
+    }
+
+   .info .lorem{
+    font-size: 20px;
+    }
+  
+    .info .info-left .bt-start , .bt-play {
+        background-color: #3277ee;
+        border-radius:10px ;
+        font-size:25px;
+        color: rgb(172, 39, 39);
+        
+        }
+         .bt-start a{
+            color: rgb(255, 255, 255); 
+            text-decoration: none;
+        }
+        
+         .bt-play a{
+            text-decoration: none;
+         }
+          
+         /* bt-playin icindeki play clasili img ni boyute bilmedim */
+
+        
+.info-right {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.info-right img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.reklam{
+    width:100px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.reklam img{
+    width: 100%;
+    padding: 30px;
+
+ 
+}
+         
+
+      }
+
+
+
+
+
+

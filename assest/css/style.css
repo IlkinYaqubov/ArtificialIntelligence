@@ -1,0 +1,103 @@
+/* butun sayt ucun */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+body {
+    background-color: #08101e;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+/* butun sayt ucun son */
+
+
+/* headern in basliqi */
+
+.logo{
+    display: flex;
+    color: aliceblue;  
+}
+
+.logo h2{
+  font-size: 25px;
+}
+
+.logo .fa-bars{
+   padding:35px 3px  0 60px;
+   font-size: 25px;
+
+}
+
+.nav-links , .daxil{
+    display: none;   
+}
+
+.info{
+    text-align: center;
+} 
+
+.info .info-left p{
+    color: #fff;
+
+}
+
+.info .info-left h1{
+    color: rgb(230, 223, 215);
+}
+
+
+.info .info-left .bt-play .play{
+    height: 15px;
+    padding-top:2px ;
+   
+}
+
+.info .info-left .bt-start , .bt-play {
+background-color: #3277ee;
+border-radius:5px ;
+font-size:15px;
+color: rgb(172, 39, 39);
+text-decoration: none;
+}
+ .bt-start a{
+    color: rgb(255, 255, 255); 
+}
+
+.bt-play a{
+    color: rgb(255, 255, 255);
+}
+
+
+.info-right {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.info-right img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.reklam{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    margin:30px 30px 0 40px;
+    gap: 10px;
+}
+
+.reklam img{
+    width: 100%;
+   
+  
+    
+}
+
+
+
+
+
+
+
+
